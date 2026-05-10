@@ -1,0 +1,14 @@
+{
+  "name": "pi-permissions-memory",
+  "version": "0.1.0",
+  "description": "Interactive permission gates for pi with learn-as-you-go auto-approve memory",
+  "keywords": ["pi-package", "pi-extension", "pi-coding-agent"],
+  "license": "MIT",
+  "main": "index.ts",
+  "pi": {
+    "extensions": ["."]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
